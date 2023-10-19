@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    background-blend-mode: multiply;
+    background-color: #FF8000;
+}
+
+div {
+    background-color: #3F3F3F;
+}
+
+.formulario_registro {
+    width: 500px;
+    background-color: #3F3F3F;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(255, 132, 0);
+    font-size: 20px;
+}
+
+.formulario_registro h1 {
+    color: #ff7b00;
+    background-color: #3F3F3F;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #F2F2F2;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.formulario_registro p {
+    height: 40px;
+    font-size: 18px;
+    background-color: #3F3F3F;
+}
+
+.cuadro { /*textarea*/
+    width: 100%;
+    background: #F2F2F2;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+    resize:vertical;
+}
+
+label {
+    background-color: #3F3F3F;
+}
+
+.seleccion {
+    width: 100%;
+    background: #F2F2F2;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+option {
+    background: #F2F2F2;
+}
+
+.boton-registro {
+    color: white;
+    width: 100%;
+    background: #FF8000;
+    padding: 15px;
+    font-family: 'calibri';
+    font-size: 25px;
+}

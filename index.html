@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Formulario de Registro</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="/formulario" method="post"></form>
+
+        <section class="formulario_registro">
+            
+            <h1>Registro de Usuario.</h1>
+                
+        <!--Nombre--> <label for="nombre">Nombre:</label>
+                        <input class="controls" type="text" id="nombre">
+
+        <!--Apellido--> <label for="apellido">Apellido:</label>
+                        <input class="controls" type="text" id="apellido">
+
+        <!--Correo--> <label for="correo">Correo electrónico:</label>
+                        <input class="controls" type="email" id="correo">
+
+        <!--Contraseña--> <label for="contraseña">Contraseña:</label>
+                        <input class="controls" type="password" id="contraseña">
+
+        <!--Confirmar Contraseña--> <label for="confirmar_contraseña">Confirmar contraseña:</label>
+                        <input class="controls" type="password" id="confirmar_contraseña">
+
+        <!--Fecha de nacimiento--> <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                        <input class="controls" type="date" id="fecha_nacimiento">
+        <div>
+            <select class="seleccion">
+                <option>Sexo</option>
+                <option>Masculino</option>
+                <option>Femenino</option>
+            </select>
+            <select class="seleccion">
+                <option>Lenguaje de programación preferido</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+                <option>JAVA</option>
+                <option>Python</option>
+            </select>
+        </div>
+        <br>
+        <label for="presentación">Preséntate brevemente:</label>
+        <textarea class="cuadro" type="text"></textarea>
+
+        <input class="boton-registro" type="submit" value="Registrate">
+</body>
+</html>
+
+                        <!--<select>  
+                        <option>Hombre</option>
+                            <option>Mujer</option>
+                        </select>  
+
+                    <select name="lenguaje">
+                        <option>Html</option>
+                        <option>CSS</option>
+                        <option>Javascript</option>
+                        <option>Python</option>
+                        <option>Java</option>
+                        <option>Otro</option>
+                    </select>-->
